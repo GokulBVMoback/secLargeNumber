@@ -10,14 +10,14 @@ namespace secLargeNumber
     {
         static void Main(string[] args)
         {
-            int[] num = new int[10];
+            int[] num = new int[10]; //declaring array
             Console.WriteLine("Enter the numbers:");
             for (int i = 0; i <10; i++)
             {
-                num[i] = Convert.ToInt32(Console.ReadLine());
+                num[i] = Convert.ToInt32(Console.ReadLine()); //getting input from user for the array
             }
-            Array.Sort(num);
-            Array.Reverse(num);
+            Array.Sort(num); //Sort the array by smallest to largest
+            Array.Reverse(num); //reverse the array
             Console.WriteLine("The Second Largest number of the Array is:" + num[1]);
             Console.WriteLine();
         }
