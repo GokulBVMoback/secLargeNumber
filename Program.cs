@@ -19,7 +19,7 @@ namespace secLargeNumber
             Array.Sort(num); //Sort the array by smallest to largest
             Array.Reverse(num); //reverse the array
             Console.WriteLine("The Second Largest number of the Array is:" + num[1]);
-            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
